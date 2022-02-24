@@ -1,0 +1,112 @@
+@import "değişkenler";
+@import "reset";
+@import "box";
+
+body {
+  background-color: $bgRenk;
+  font-family: $fontFamily;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    a {
+      padding: 10px;
+    }
+  }
+  .header {
+    color: $başlıkRenk;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .bilgi {
+    @include border;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .summary {
+    @include border;
+    h2 {
+      color: $başlıkRenk;
+      margin-bottom: 10px;
+    }
+  }
+  .experience {
+    @include border;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .experience-başlık {
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        color: $başlıkRenk;
+      }
+    }
+    .experience-bilgi {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h3 {
+        color: $başlıkRenk;
+      }
+      ul {
+        list-style-type: none;
+      }
+    }
+  }
+  .tech-skils {
+    @include border;
+    h3 {
+      color: $başlıkRenk;
+      margin-bottom: 10px;
+    }
+  }
+  .soft-skils {
+    @include border;
+    h3 {
+      color: $başlıkRenk;
+      margin-bottom: 10px;
+    }
+  }
+  .project {
+    @include border;
+    h3 {
+      color: $başlıkRenk;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-position: inside;
+    }
+  }
+  .education {
+    @include border;
+    .education-başlık {
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        color: $başlıkRenk;
+        margin-bottom: 10px;
+      }
+    }
+    .education-bilgi {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 4rem;
+      h4{
+        color: $başlıkRenk;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

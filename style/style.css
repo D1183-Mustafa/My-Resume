@@ -1,0 +1,191 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FBF8F1;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container nav a {
+  padding: 10px;
+}
+
+.container .header {
+  color: #11468F;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.container .bilgi {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .summary {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.container .summary h2 {
+  color: #11468F;
+  margin-bottom: 10px;
+}
+
+.container .experience {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.container .experience .experience-başlık {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .experience .experience-başlık h3 {
+  color: #11468F;
+}
+
+.container .experience .experience-bilgi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.container .experience .experience-bilgi h3 {
+  color: #11468F;
+}
+
+.container .experience .experience-bilgi ul {
+  list-style-type: none;
+}
+
+.container .tech-skils {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.container .tech-skils h3 {
+  color: #11468F;
+  margin-bottom: 10px;
+}
+
+.container .soft-skils {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.container .soft-skils h3 {
+  color: #11468F;
+  margin-bottom: 10px;
+}
+
+.container .project {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.container .project h3 {
+  color: #11468F;
+  margin-bottom: 10px;
+}
+
+.container .project ul {
+  list-style-position: inside;
+}
+
+.container .education {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.container .education .education-başlık {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .education .education-başlık h3 {
+  color: #11468F;
+  margin-bottom: 10px;
+}
+
+.container .education .education-bilgi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin-bottom: 4rem;
+}
+
+.container .education .education-bilgi h4 {
+  color: #11468F;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */
