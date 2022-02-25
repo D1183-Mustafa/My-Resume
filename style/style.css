@@ -83,6 +83,10 @@ body {
   gap: 10px;
 }
 
+.container .experience h2 {
+  color: #11468F;
+}
+
 .container .experience .experience-başlık {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,6 +160,10 @@ body {
   border-top: 1px solid black;
   margin-top: 20px;
   padding-top: 20px;
+}
+
+.container .education h2 {
+  color: #11468F;
 }
 
 .container .education .education-başlık {

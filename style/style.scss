@@ -42,6 +42,9 @@ body {
   }
   .experience {
     @include border;
+    h2 {
+      color: $başlıkRenk;
+    }
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -90,6 +93,9 @@ body {
   }
   .education {
     @include border;
+    h2 {
+      color: $başlıkRenk;
+    }
     .education-başlık {
       display: flex;
       justify-content: space-between;
@@ -103,7 +109,7 @@ body {
       flex-direction: column;
       gap: 10px;
       margin-bottom: 4rem;
-      h4{
+      h4 {
         color: $başlıkRenk;
         margin-bottom: 10px;
       }
